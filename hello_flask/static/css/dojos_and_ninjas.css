@@ -1,0 +1,43 @@
+* {
+    margin: none;
+    padding: none;
+    font-family: cursive;
+}
+
+main {
+    display: flex;
+    gap: 30px;
+}
+
+.col-1, .col-2 {
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+    border: black solid 2px;
+    padding: 30px;
+    gap: 20px;
+}
+
+a {
+    align-self: end;
+}
+/* END OF index.html */
+
+/*BEGIN ninja.html */
+
+.ninja-main-box {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.ninja-form-box {
+    display: flex;
+    flex-flow: column;
+}
+
+.input-box {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
